@@ -1,0 +1,74 @@
+body {
+    background-color: #b3854a;
+    color: antiquewhite;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lagarto{
+    height: 150px;
+}
+h1{
+    font-size: 42px;
+}
+
+nav {
+    padding: 10px 5px;
+    background-color: #29742c;
+    max-width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    font-size: 1.25em;
+}
+
+nav ul li a:hover {
+    background-color: #b3854a; 
+}
+h2{
+    font-size: 32px;
+}
+section {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: none; 
+    font-size: 24px;
+}
+
+section:target {
+    display: block;
+}
+
+section:not(:target) {
+    display: none;
+}
+
+.pratos{
+    height: 400px;
+}
+/* #cartola {
+    height: 400px;
+} */
