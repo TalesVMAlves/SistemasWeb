@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2c2c2c;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+section{
+    border: solid ;
+    margin: 10px;
+}
+.question, .options {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+li label{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Quando o radio button está marcado e a opção é correta (data-resposta="true") */
+input[type="radio"]:checked[data-resposta="true"] + label {
+    background-color: green;
+}
+
+/* Quando o radio button está marcado e a opção é incorreta (data-resposta="false") */
+input[type="radio"]:checked[data-resposta="false"] + label {
+    background-color: red;
+}
