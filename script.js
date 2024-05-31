@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const vlSpec = {
             "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
             "title": {
-                "text": "Qual o seu leitor de tela padrão?",
+                "text": "Leitores de tela mais utilizados para navegação pela internet 2019",
                 "fontSize": 20,
                 "anchor": "start"
             },
             "width": 600, 
             "height": 400, 
-            "description": "Qual o seu leitor de tela padrão?",
+            // "description": "Qual o seu leitor de tela padrão?",
             "data": {
                 "values": [
                     { "Leitor de Tela": "Jaws", "Quantidade": 832 }, { "Leitor de Tela": "NVDA", "Quantidade": 476 }, { "Leitor de Tela": "Voice-Over", "Quantidade": 100 },
