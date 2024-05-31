@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Sprint</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- vega / vega-lite -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <!-- olli -->
+    <script src="olli/docs/olli/olli.js"></script>
+    <script src="olli/docs/olli/adapters.js"></script>
+</head>
+<body>
+    <header>
+        Visualização de Dados
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" id="barra-link">Gráfico Barras</a></li>
+            <li><a href="#" id="linha-link">Gráfico de Linhas</a></li>
+            <li><a href="#" id="setor-link">Gráfico de Setores</a></li>
+        </ul>
+    </nav>
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+        <div id="bar-container" style="display: none;"></div>
+        <div id="olli-bar-container" style="display: none;"></div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.32/Tone.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
